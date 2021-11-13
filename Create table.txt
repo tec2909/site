@@ -1,0 +1,13 @@
+
+create table SYSTEM.DOCUEMTO
+(
+  cod           NUMBER not null,
+  titulo        VARCHAR2(100) not null,
+  descrição     VARCHAR2(100),
+  data		DATE,
+  Hora          DATE
+)
+
+alter table SYSTEM.AVALIACAO
+  add constraint PK_cod primary key (cod)
+  add constraint fk_PESQUISA foreingn key (cod) references SYSTEM.documento (ID_ALUNO)
