@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Styleguide</title>
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="wireframe.css" type="text/css">
+</head>
+
+<body>
+  <div class="navbar navbar-dark bg-success">
+    <div class=" d-flex justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"> <span class="navbar-toggler-icon"></span> </button>
+      <a href="#" class="navbar-brand d-flex align-items-center"><i class="fa d-inline fa-camera mr-2"></i><strong style="">Album</strong> </a>
+    </div>
+  </div>
+  <div class="py-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-2" style="	box-shadow: 0px 0px 4px  write;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"> <a href="#">Home</a> </li>
+            <li class="breadcrumb-item active">Meus Documentos/li&gt; </li>
+          </ul>
+          <h2>Meus Documentos</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: left center; background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="p-5 col-lg-6">
+          <h1>Entrar</h1>
+          <p class="mb-3">Prencha com suas informações</p>
+          <form>
+            <div class="form-group"> <input type="email" class="form-control" placeholder="Enter email" id="form11"> </div>
+            <div class="form-group"> <input type="password" class="form-control" placeholder="Password" id="form12"> <small class="form-text text-muted text-right">
+                <a href="#"> Forgot your password?</a>
+              </small> </div> <button type="submit" class="btn btn-primary">logar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-pills my-4" style="">
+            <li class="nav-item"> <a href="#" class="nav-link active">Nav pills</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-lg fa-child"></i> Item</a> </li>
+            <li class="nav-item" style="opacity: 0.5;"> <a class="nav-link" href="#"><i class="fa fa-lg fa-anchor mt-1"></i></a> </li>
+            <li class="nav-item dropdown" style="opacity: 0.5;"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 5px, 0px); top: 0px; left: 0px; will-change: transform;" x-out-of-boundaries=""> <a class="dropdown-item" href="#">Option 1</a> <a class="dropdown-item" href="#">Option 2</a>
+                <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav nav-tabs">
+            <li class="nav-item" style=""> <a href="#home" class="nav-link" aria-controls="home" aria-selected="false" data-toggle="tab" id="home-tab" role="tab">Cadastro</a> </li>
+            <li class="nav-item" style=""> <a class="nav-link active show" href="#profile" aria-controls="profile" aria-selected="true" data-toggle="tab" id="profile-tab" role="tab">Listagem</a> </li>
+            <li class="nav-item"> <a href="#contact" class="nav-link" aria-controls="contact" aria-selected="false" data-toggle="tab" id="contact-tab" role="tab">Visualização <span class="badge badge-pill badge-warning">!</span></a> </li>
+            <li class="nav-item"> <a href="#contact" class="nav-link" aria-controls="contact" aria-selected="false" data-toggle="tab" id="contact-tab" role="tab">Edição<span class="badge badge-pill badge-warning">!</span></a> </li>
+          </ul>
+          <div class="tab-content my-2" id="myTabContent">
+            <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">Preencha as informações e campos para realizar o envio, detalhe não aceita cadastro de titulos iguais <div class="col-md-12 p-3" style="">
+                <h2>Cadastrar</h2>
+                <form method="post" action="">
+                  <div class="form-group mb-1"> <input type="titulo" name="titulo" class="form-control" placeholder="Titulo"> </div> <small id="emailHelp" class="form-text text-muted">Máximo 100 caracteres</small>
+                  <div class="form-group my-3"><input type="Descrição" name="Descrição" class="form-control" placeholder="Descrição">
+                    <small id="emailHelp" class="form-text text-muted">Máximo 2000 caracteres</small></div>
+                  <div class="form-group my-3"> <input type="file" class="form-control-file" id="exampleFormControlFile1" style=""> </div>
+                  <button type="submit" class="btn btn-primary my-2">Submit button</button>
+                </form>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+              </div>
+            </div>
+            <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-info p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center p-4 ">
+          <h4>Creditos à</h4>
+          <p class="mb-0 py-1">© DOCSPIDER SOFTWARE S.A. - CNPJ: 83.065.805/0001-40</p>
+          <p class="mb-4 text-primary">Unidade SP: Rua Bela Cintra, 756 - 9° Andar - CEP: 01415-002 - São Paulo - SP - Fone: (11) 4052-7052. Unidade SC: Rua Doutor Plácido Gomes, 610 - 4° andar <br> CEP: 89202-050 - Joinville - SC <br> <abbr title="Phone">P:</abbr> Fone: (47) 3121-5050 </p>
+          <div class="row text-center">
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-facebook text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-twitter text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa fa-instagram text-primary fa-2x"></i></a>
+            </div>
+            <div class="col-md-2 col-3">
+              <a href="#" target="_blank"><i class="fa text-primary fa-2x fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white"> Botstrap &nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
