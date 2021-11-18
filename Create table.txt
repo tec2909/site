@@ -9,4 +9,4 @@ create table SYSTEM.DOCUEMTO
 
 alter table SYSTEM.AVALIACAO
   add constraint PK_cod primary key (cod)
-  add constraint fk_PESQUISA foreingn key (cod) references SYSTEM.documento (cod)
+  add constraint fk_cod references SYSTEM.DOCUMENTO (COD)
