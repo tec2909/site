@@ -1,0 +1,14 @@
+create or replace trigger SYSTEM.TR_documentos_BIUD
+  before insert or update or delete
+  on SYSTEM.DOCUMENTOS 
+  for each row
+declare
+begin
+  
+  if inserting then
+      select SYSTEM.sq_documentos.nextval
+      into :new.cod
+      from dual;
+  end if;
+
+end TR_documentos_BIUD;
